@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1476250125 source:c:\users\josed\onedrive\documentos\laboratorios\lab2josequintero\laboratorio2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1476245564 source:c:\users\josed\onedrive\documentos\laboratorios\lab2josequintero\laboratorio2\nat2bin.c
+
+1476250005 source:c:\users\josed\onedrive\documentos\laboratorios\lab2josequintero\laboratorio2\bin2nat.c
+
+1476245564 source:c:\users\josed\documents\laboratorios\lab2josequintero\laboratorio2\nat2bin.c
+
+1476250226 source:c:\users\josed\documents\laboratorios\lab2josequintero\laboratorio2\bin2nat.c
+
+1477439666 source:c:\users\josed\documents\laboratorios\lab2josequintero\laboratorio2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1476568221 source:c:\users\josed\onedrive\documentos\laboratorios\lab2josequintero\lab4josequintero\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1476552058 source:c:\users\josed\onedrive\documentos\laboratorios\lab2josequintero\lab4josequintero\crearbasedatos.c
+
+1476564708 source:c:\users\josed\onedrive\documentos\laboratorios\lab2josequintero\lab4josequintero\mostarmenu.c
+	<stdio.h>
+
+1476566528 source:c:\users\josed\onedrive\documentos\laboratorios\lab2josequintero\lab4josequintero\reservarasiento.c
+	<stdio.h>
+	<stdlib.h>
+
+1476566528 source:c:\users\josed\onedrive\documentos\laboratorios\lab2josequintero\lab4josequintero\cancelarasiento.c
+
+1476568177 source:c:\users\josed\onedrive\documentos\laboratorios\lab2josequintero\lab4josequintero\mostrarocupacion.c
+
+1476568540 source:c:\users\josed\onedrive\documentos\laboratorios\lab2josequintero\lab4josequintero\actualizarbd.c
+	<stdio.h>
+	<stdlib.h>
+
+1476569701 source:c:\users\josed\onedrive\documentos\laboratorios\lab2josequintero\lab4josequintero\mostrarmenu.c
+	<stdio.h>
+

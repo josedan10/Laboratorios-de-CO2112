@@ -1,0 +1,45 @@
+# Project: lab4JoseQuintero
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = main.o actualizarBD.o cancelarAsiento.o mostrarMenu.o mostrarOcupacion.o reservarAsiento.o $(RES)
+LINKOBJ  = main.o actualizarBD.o cancelarAsiento.o mostrarMenu.o mostrarOcupacion.o reservarAsiento.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib"  
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include" 
+BIN  = lab4JoseQuintero.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before lab4JoseQuintero.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o "lab4JoseQuintero.exe" $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+actualizarBD.o: actualizarBD.c
+	$(CC) -c actualizarBD.c -o actualizarBD.o $(CFLAGS)
+
+cancelarAsiento.o: cancelarAsiento.c
+	$(CC) -c cancelarAsiento.c -o cancelarAsiento.o $(CFLAGS)
+
+mostrarMenu.o: mostrarMenu.c
+	$(CC) -c mostrarMenu.c -o mostrarMenu.o $(CFLAGS)
+
+mostrarOcupacion.o: mostrarOcupacion.c
+	$(CC) -c mostrarOcupacion.c -o mostrarOcupacion.o $(CFLAGS)
+
+reservarAsiento.o: reservarAsiento.c
+	$(CC) -c reservarAsiento.c -o reservarAsiento.o $(CFLAGS)

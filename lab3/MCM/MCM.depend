@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1476380191 source:/home/dsc/Documentos/Labs c/MCM/MCM/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1477786404 source:/home/dsc/Documentos/Labs c/MCM/MCM/mcd.c
+

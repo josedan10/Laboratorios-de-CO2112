@@ -1,22 +1,12 @@
-﻿Compilación iniciada a las 24/11/2016 1:37:46 p. m..
+﻿Compilación iniciada a las 25/11/2016 2:16:19 p. m..
      1>Proyecto "C:\Users\josed\Documents\Programming\C\Laboratorios-de-CO2112\lab8\Lab8\Lab8\Lab8.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
-         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt area.c main.c
-         main.c
-     1>c:\users\josed\documents\programming\c\laboratorios-de-co2112\lab8\lab8\lab8\main.c(32): warning C4047: '=': 'FILE *' es distinto en los niveles de direccionamiento indirecto de 'int'
-     1>c:\users\josed\documents\programming\c\laboratorios-de-co2112\lab8\lab8\lab8\main.c(32): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-         c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: vea la declaración de 'fopen'
-     1>c:\users\josed\documents\programming\c\laboratorios-de-co2112\lab8\lab8\lab8\main.c(38): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-         c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: vea la declaración de 'fscanf'
-         area.c
-     1>c:\users\josed\documents\programming\c\laboratorios-de-co2112\lab8\lab8\lab8\area.c(11): warning C4047: 'función': 'fdd' es distinto en los niveles de direccionamiento indirecto de 'fdd *'
-     1>c:\users\josed\documents\programming\c\laboratorios-de-co2112\lab8\lab8\lab8\area.c(11): warning C4024: 'integral': tipos distintos para el parámetro formal y el parámetro real 1
-     1>c:\users\josed\documents\programming\c\laboratorios-de-co2112\lab8\lab8\lab8\area.c(13): warning C4047: 'función': 'fdd' es distinto en los niveles de direccionamiento indirecto de 'fdd *'
-     1>c:\users\josed\documents\programming\c\laboratorios-de-co2112\lab8\lab8\lab8\area.c(13): warning C4024: 'integral': tipos distintos para el parámetro formal y el parámetro real 1
-     1>c:\users\josed\documents\programming\c\laboratorios-de-co2112\lab8\lab8\lab8\area.c(7): warning C4101: 'error': variable local sin referencia
-         Generando código...
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt integral.c
+         integral.c
        Link:
          C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\josed\Documents\Programming\C\Laboratorios-de-CO2112\lab8\Lab8\Debug\Lab8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\josed\Documents\Programming\C\Laboratorios-de-CO2112\lab8\Lab8\Debug\Lab8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\josed\Documents\Programming\C\Laboratorios-de-CO2112\lab8\Lab8\Debug\Lab8.lib" /MACHINE:X86 Debug\area.obj
+         Debug\fun1.obj
+         Debug\fun2.obj
          Debug\integral.obj
          Debug\main.obj
          Lab8.vcxproj -> C:\Users\josed\Documents\Programming\C\Laboratorios-de-CO2112\lab8\Lab8\Debug\Lab8.exe
@@ -24,4 +14,4 @@
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:02.96
+Tiempo transcurrido 00:00:02.10

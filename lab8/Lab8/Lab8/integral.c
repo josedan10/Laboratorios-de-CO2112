@@ -4,26 +4,31 @@
 #include "definiciones.h"
 
 double integral(fdd funcion, datos_integral *dataInt) {
-	double h, inicio, fin, integral_subDiv, integralTotal, integralParcial,I0=pow(10,9);
+	double h, inicio, fin, integral_subDiv, integralTotal=0, integralParcial=0,I0=pow(10,9);
 	int inter = dataInt->num_intervalos, i=0, TRUE=1;
 
 	double errorMax = dataInt->error_max, x_i, x_iMedio, errorInt=dataInt->error;
 
 	static int cont = 0;
+	fin = dataInt->b;
+	inicio = dataInt->a;
 
 	cont += 1;
-	h = (fin - inicio) / inter;
+	
 
 	while (TRUE) {
+		h = (fin - inicio) / inter;
 		for (i = 0; i < inter; i++) {
+			
 			x_i = inicio + h*i;
 
 			//Punto medio en [xi,x(i+1)]
 			x_iMedio = inicio + ((2 * i + 1) / 2)*h;
 
-			integral_subDiv = h*funcion(x_iMedio);
-			integralTotal += integral_subDiv;
+			integral_subDiv = funcion(x_iMedio);
+			integralParcial += integral_subDiv;
 		}
+		//integralTotal = integralParcial;
 		integralParcial *= h;
 		errorInt=fabs(I0 - integralParcial);
 
@@ -36,7 +41,7 @@ double integral(fdd funcion, datos_integral *dataInt) {
 
 	integralTotal = integralParcial;
 
-	printf("\nIntegral %d: %.4lf, numero de subintervalos: %d, error: %.2lf", cont, inter, errorInt);
+	printf("\nIntegral %d: %.4f, numero de subintervalos: %d, error: %.4f", cont, integralTotal, inter, errorInt);
 
 	return integralTotal;
 }

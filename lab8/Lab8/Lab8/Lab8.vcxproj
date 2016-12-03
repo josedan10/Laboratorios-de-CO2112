@@ -143,6 +143,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="area.c" />
+    <ClCompile Include="fun1.c" />
+    <ClCompile Include="fun2.c" />
     <ClCompile Include="integral.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
